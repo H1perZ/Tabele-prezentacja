@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Tabele</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <link rel="stylesheet" href="tabele_prezentacja.css">
+    </head>
+    <body class="bg-dark">   
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  data-bs-interval="false" data-interval="false">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div id="slajd">
+                        <p id="slajd-1-tekst">Tworzenie i stylowanie <br>tabel w HTML i CSS</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="slajd">
+                      <p id="slajd-2-tekst">Znaczniki tworzące tabele w HTML</p>
+                      <ul id="slajd-2-lista">
+                          <li><b>&lt;table&gt;</b> - główny znacznik tworzący tabelę</li>
+                          <li><b>&lt;caption&gt;</b> - nadaje tytuł tabeli - musi być wstawiony zaraz <br> po tagu &lt;table&gt;</li>
+                          <li><b>&lt;tr&gt;</b> - tworzy wiersz w tabeli</li>
+                          <li><b>&lt;th&gt;</b> - tworzy komórki w wierszu nagłówkowym tabeli - tekst w takiej <br>komórce jest pogrubiony i wyśrodkowany</li>
+                          <li><b>&lt;td&gt;</b> - tworzy komórki w pozostałych wierszach</li>
+                      </ul>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="slajd">
+                        <p id="slajd-3-tekst">Parametryzowanie tabeli w HTML</p>
+                        <p id="atrybuty">Atrybuty</p>
+                        <ul>
+                            <li id="col"><b>colspan = "3"</b> scalenie 3 kolumn</li>
+                            <li id="row"><b>rowspan = "2"</b> scalenie 2 wierszy</li>
+                        </ul>
+                        <p class="kod">&lt;table&gt; <br> &lt;tr&gt; <br> <span class="td">&lt;td <b>colspan = "3"</b>&gt;&lt;/td&gt; </span>
+                        <br><span class="td2"> &lt;td <b>rowspan = "2"</b>&gt;&lt;/td&gt; </span> <br> &lt;/tr&gt; <br> &lt;tr&gt; <br>
+                        <span class="td3"> &lt;td&gt; &lt;/td&gt; <br> <span class="td3"> &lt;td&gt; &lt;/td&gt; </span> <br> <span class="td3"> &lt;td&gt; &lt;/td&gt; </span> </span>
+                       <br> &lt;/tr&gt; <br> &lt;/table&gt;</p>
+                       <img src="tabele.png" alt="tabele" id="tabele">
+                         <ul id="slajd-3-lista"></ul>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="slajd">
+                        <p id="slajd-4-tekst">Parametyzowanie tabeli w CSS</p>
+                            <p id="wpraktyce">Jak poprawnie stworzyć obramowanie.</p>
+                            <ul id="slajd-4-lista">
+                                <li id="kor"><b>Poprawny schemat tworzenia obramowania:</b></li>
+                                <li id="bor"><b>{border: 2px solid green;}</b></li>
+                                <li id="aor"><b>px - określa grubość obramowania</b></li>
+                                <li id="aor"><b>solid - określa typ obramowania</b></li>
+                                <li id="aor"><b>green - określa kolor obramowania</b></li>
+                                <li id="kor"><b>Można także użyć subatrybutów: left, right, top, bottom:</b></li>
+                                <li id="bor"><b>{border-left: 1px solid black;}</b></li>
+                                <li id="bor"><b>{border-right: 1px dashed blue;}</b></li>
+                                <li id="bor"><b>{border-top: 1px double green;}</b></li>
+                                <li id="bor"><b>{border-bottom: 1px dotted yellow;}</b></li>
+                                <img src="border.png" alt="border" id="border">
+                            </ul>
+                        
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="slajd">
+                        <p id="tytul">Tabele możemy stylować za pomocą różnych <br>atrybutów. M.in :</p>
+                        <ul class="lista2">
+                          <li><b>width</b> - szerokość</li>
+                          <li><b>height</b> - wysokość</li>
+                          <li><b>background-color</b> - kolor tła tabeli lub komórki</li>
+                          <li><b>text-align</b> - wyrównanie tekstu w poziomie</li>
+                          <li><b>background-image: utl("plik.jpg")</b> - obrazek jako tło</li>
+                        </ul>
+                      
+                      </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id="slajd">
+                        <p id="slajd-5-tekst">Własności border collapse</p>
+                            <p id="wartosc">Border collapse jest używany do stworzenia połączonych obramowań </p>
+                            <ul id="slajd-5-lista">
+                             <li>"rozdzielone" | "połączone"</li>
+                              <li>border-collapse: separate | collapse {odstępy | bez odstępów} </li>
+                              <li>W modelu połączonych obramowań sąsiadujące komórki tabel współdzielą obramowania </li>
+                              <li>W modelu rozdzielonych obramowań sąsiadujące komórki mają swoje własne odrębne obramowania</li>
+                              <li id="bor">Odległość między obramowaniami sąsiednich komórek:</li>
+                              <li>border-spacing: 10px</li>
+                              <li id="bor">Wyrównanie elementów w pionie:</li>
+                              <li>vertical-align: top|bottom</li>
+                            </ul>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div id="slajd">
+                      <p id="slajd-7-lista">Dziękujemy za uwagę</p>
+                      
+                    
+                    </div>
+              </div>
+
+                
+<!-- ======NIE DOTYKAMY NIC PONIŻEJ================================================================================================================================================================================================================================= -->
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

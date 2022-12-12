@@ -1,0 +1,198 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+#slajd-1-tekst {
+    text-align: center;
+    font-size: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+}
+
+#slajd {
+    background-color:whitesmoke;
+    border: 20px lightgray solid;
+    margin: 0 auto;
+    width:90vw;
+    height:90vh;
+    margin-top: 30px;
+    font-size: 50px;
+    
+}
+.tytul {
+    font-size: 20px;
+}
+
+#slajd-2-tekst {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+}
+#slajd-2-lista {
+    font-size: 35px;
+    margin-top: 180px;
+    margin-left: 30px;
+    text-align: center;
+    list-style-type: none;
+    line-height: 40px;;
+}
+
+#atrybuty {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 40px;
+}
+#slajd-3-tekst {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+#row {
+    font-size: 25px;
+    margin-left: 20px;
+}
+#col {
+    font-size: 25px;
+    margin-left: 20px;
+}
+.kod {
+    font-size: 25px;
+    margin-left: 30px;
+    
+    
+    
+    
+    
+}
+
+#tabele {
+    float:right;
+    width: 50%;
+    margin-top: -400px;
+    margin-right: 70px;
+}
+#border {
+    width:40%;
+    
+    
+}
+.td {
+    margin-left: 20px;
+}
+.td2 {
+    margin-left: 20px;
+}
+.td3 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#slajd-3-lista{
+    
+}
+#slajd-4-tekst{
+font-size: 40px;
+text-align: center;
+margin-top: 20px;
+
+}
+#wpraktyce{
+    font-size: 25px;
+    text-align: center;
+}
+#bor{
+  color: rgb(173, 114, 3);
+  margin-left:10px;
+  list-style-type: none;
+}
+#aor{
+    list-style-type: none;
+    margin-left: 20px;
+}
+#kor{
+    list-style-type: none;
+    margin: 5px;
+    font-size: 25px;
+}
+#border{
+    float: right;
+    margin-top: -300px;
+    margin-right: 40px;
+}
+
+#slajd-4-lista{
+  
+    font-size: 20px;
+  margin-left: 20px;
+margin-top: 60px;
+}
+#slajd-5-tekst{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+#slajd-5-lista{
+font-size: 30px;
+margin: 5px;
+margin-top: 120px;
+text-align: center;
+list-style-type: none;
+    
+}
+.ioi{
+    color:rgb(173, 114, 3) ;
+}
+#wartosc{
+    font-size: 30px;
+    text-align: center;
+}
+#tytul{
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+#slajd-6-lista{
+
+    
+}
+#slajd-7-tekst{
+
+
+}
+#slajd-7-lista{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 250px;
+
+    
+}
+#slajd-8-tekst{
+
+
+}
+#slajd-8-lista{
+
+    
+}
+#slajd-9-tekst{
+
+
+}
+#slajd-9-lista{
+
+    
+}
+
+.lista2 {
+    font-size: 40px;
+    margin-top: 120px;
+    text-align: center;
+    list-style-type:none;
+}
+
+
